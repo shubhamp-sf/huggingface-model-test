@@ -1,0 +1,10 @@
+sudo apt update
+
+sudo apt install python3-pip
+
+pip install transformers
+
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
+
+# test the sentiment wala file first
+# python3 sample.py
